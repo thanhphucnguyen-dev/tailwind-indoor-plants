@@ -12,6 +12,8 @@
     <!-- cdnjs.com  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
     <!--~~~~~~~~~~~~Swiper's CSS~~~~~~~~~~~~~-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link href="./output.css" rel="stylesheet" />
     <title>IndorePlants | Healthy Indoor Plants for a Greener Life</title>
 </head>
@@ -352,25 +354,198 @@
         </section>
 
         <!-------------------Review------------------->
-        <section id="review">
+        <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
+
+            <div class="absolute -top-8 -left-12 opacity-50">
+                <img src="/assets/img/leaf_4.png" alt="leaf_image" class="w-40 md:w-52 xl:w-64 ">
+            </div>
+
+            <div class="flex flex-col items-center gap-3 text-center mb-10">
+                <h2 class="title">Customer Review</h2>
+                <p class="max-w-2xl">Follow instruction for more</p>
+            </div>
+
+            <div class="container ">
+                <div class="swiper py-12">
+                    <ul class="swiper-wrapper">
+                        <!-- review 1 -->
+                        <li class="swiper-slide">
+                            <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                                <p class="font-Lobster">I’m very happy with my purchase from IndorePlants. The plants
+                                    arrived quickly and
+                                    were exactly as shown in the photos. I’ll definitely buy more for my home!
+                                </p>
+                                <div class="flex items-center">
+                                    <img src="/assets/img/review-1.jpg" alt="review_image"
+                                        class="w-12 h-12 rounded-full ">
+                                    <div class="ml-2">
+                                        <p class="text-yellow-500 uppercase ">John doe</p>
+                                        <p>Back End Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- review 2 -->
+                        <li class="swiper-slide">
+                            <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                                <p class="font-Lobster">Great experience! The delivery was fast, and the plant I ordered
+                                    was in perfect condition. The customer service was very helpful and friendly. I’ll
+                                    definitely come back for more!</p>
+                                <div class="flex items-center">
+                                    <img src="/assets/img/review-2.jpg" alt="review_image"
+                                        class="w-12 h-12 rounded-full ">
+                                    <div class="ml-2">
+                                        <p class="text-yellow-500 uppercase ">John doe</p>
+                                        <p>Designer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- review 3 -->
+                        <li class="swiper-slide">
+                            <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                                <p class="font-Lobster">This was my first time ordering plants online, and I’m happy
+                                    with the service. The website is easy to navigate, but the delivery time was a bit
+                                    delayed. Still, the plants are healthy and beautiful.</p>
+                                <div class="flex items-center">
+                                    <img src="/assets/img/review-3.jpg" alt="review_image"
+                                        class="w-12 h-12 rounded-full ">
+                                    <div class="ml-2">
+                                        <p class="text-yellow-500 uppercase ">John doe</p>
+                                        <p>Designer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- review 4 -->
+                        <li class="swiper-slide">
+                            <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                                <p class="font-Lobster">I had a great experience shopping at [Website Name]. The plants
+                                    arrived fresh and well-packaged. I love the variety of plants available and will
+                                    definitely order again!</p>
+                                <div class="flex items-center">
+                                    <img src="/assets/img/review-4.jpg" alt="review_image"
+                                        class="w-12 h-12 rounded-full ">
+                                    <div class="ml-2">
+                                        <p class="text-yellow-500 uppercase ">John doe</p>
+                                        <p>Front End Developer</p>
+                                    </div>
+                                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
 
         </section>
     </main>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <footer>
+    <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
         <!--~~~~~~~~~~~~newsletter~~~~~~~~~~~~~~~-->
+        <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
+            <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
+                <h3><span class="text-yellow-500">Subscribe</span> to our newsletter</h3>
+                <div class="flex flex-col md:flex-row gap-1">
+                    <input type="email" placeholder="Your Email Address"
+                        class="w-full px-5 py-3 text-green-900 rounded-md outline-none">
+                    <button
+                        class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+                        <span>Subscribe</span>
+                        <i class="ri-send-plane-2-fill"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
         <!--~~~~~~~~~~~~social icon~~~~~~~~~~~~~~-->
+        <div class="container mt-16 mb-10">
+            <div class="border-b border-green-500 relative ">
+                <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+                    <div class="bg-yellow-100 text-lg text-center space-x-2">
+                        <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        <i class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+                        <i class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--~~~~~~~~~~~~content~~~~~~~~~~~~~~~~~~-->
+        <div
+            class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+            <!-- Item 1 -->
+            <div class="">
+                <div class="text-7xl text-green-700 text-center inline-block">
+                    <i class="ri-leaf-fill"></i>
+                    <p class="font-Lobster text-xl sm:text-2xl ">IndorePlants.</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="">
+                <p class="mb-5 font-bold text-xl">Quick Link</p>
+                <div class="flex flex-col gap-1">
+                    <a href="#">Plants</a>
+                    <a href="#">Flowers</a>
+                    <a href="#">Gerdening</a>
+                    <a href="#">Seeds</a>
+                    <a href="#">Shipping</a>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="">
+                <p class="mb-5 font-bold text-xl">Popular Services</p>
+                <div class="flex flex-col gap-1">
+                    <a href="#">Tree Planting</a>
+                    <a href="#">Grass cutting</a>
+                    <a href="#">Weeds Control</a>
+                    <a href="#">Project</a>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="">
+                <p class="mb-5 font-bold text-xl">Contact Us</p>
+                <div class="flex flex-col gap-1">
+                    <a href="tel:+8877778901">+88 777 78 901</a>
+                    <a href="mailto:thanhphucnguyen54@gmail.com">thanhphucnguyen54@gmail.com</a>
+                    <br>
+                    <p>1234 Tailwind Ave, CSS City, Webland 12345, USA</p>
+                    <a href="#">Weeds Control</a>
+                    <a href="#">Project</a>
+                </div>
+            </div>
+
+        </div>
         <!--~~~~~~~~~~~~copyright~~~~~~~~~~~~~~~~-->
+        <div class="container">
+            <p class="text-center mt-10 opacity-50">Copyright &copy; 2024 thanhphucnguyen-dev. All rights reserved.</p>
+        </div>
         <!--~~~~~~~~~~~~floral image~~~~~~~~~~~~~-->
-
-
-
+        <div class="absolute bottom-0 left-0 opacity-20 pointer-events-none">
+            <img src="/assets/img/floral_1.png" alt="floral_image" class="w-full lg:w-1/2 ">
+        </div>
     </footer>
 
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Scroll up~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Scroll up button~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <a href="#" id="scroll-up" class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300">
+        <i class="ri-arrow-up-line"></i>
+    </a>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Swiper JS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SCROLLREVEAL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~mainjs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <script src="./app.js"></script>

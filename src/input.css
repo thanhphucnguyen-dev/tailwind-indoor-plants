@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply overflow-x-hidden scroll-smooth;
+}
+
 body {
   @apply bg-green-950 text-white font-Jost tracking-wider;
   font-family: "Poppins", sans-serif;
@@ -58,4 +62,8 @@ h3 {
 /* popular card */
 .popular_card:hover img {
   @apply -top-8;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-green-500 w-3 h-3;
 }
