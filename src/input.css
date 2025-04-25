@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  @apply bg-green-950 text-white font-Jost tracking-wider;
+  @apply bg-pink-900 text-white font-Jost tracking-wider;
   font-family: "Poppins", sans-serif;
 }
 section {
@@ -33,6 +33,11 @@ h3 {
 
 .nav-link:hover {
   @apply text-yellow-500;
+}
+
+/* active */
+.active {
+    @apply text-yellow-500;
 }
 
 .title {
@@ -66,4 +71,18 @@ h3 {
 
 .swiper-pagination-bullet {
   @apply bg-green-500 w-3 h-3;
+}
+
+/* bông tuyết */
+.snowflake {
+  @apply absolute top-[-10px] rounded-full bg-white opacity-80;
+   width: 10px;
+   height: 10px;
+  animation: fall linear infinite;
+}
+
+.animate-fall {
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
