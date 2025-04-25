@@ -33,7 +33,15 @@ This project is part of my learning journey to practice Tailwind utility-first C
 
 # Video preview
 
-![Video](./assets/img/Preview.mp4)
+<video width="600" controls>
+  <source src="/assets/img/Preview.mp4" type="video/mp4">
+</video>
+
+<video width="600" controls>
+  <source src="/assets/img/Preview_responsive.mp4" type="video/mp4">
+</video>
+
+
 
 ![Video](./assets/img/Preview_responsive.mp4)
 
